@@ -15,7 +15,7 @@ struct Users_4: View {
     var body: some View {
         ZStack {
             
-            Color("bg")
+            Color("bg3")
                 .ignoresSafeArea()
             
             Image("users_4")
@@ -60,7 +60,7 @@ struct Users_4: View {
                         .font(.system(size: 15, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 15).fill(Color(red: 0/255, green: 163/255, blue: 255/255)))
+                        .background(RoundedRectangle(cornerRadius: 15).fill(Color.blue))
                 })
             }
             .padding()

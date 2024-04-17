@@ -13,14 +13,13 @@ struct LoadingView: View {
         
         ZStack {
             
-            Image("splash_bg")
-                .resizable()
+            Color("bg3")
                 .ignoresSafeArea()
             
             Image("logo_big")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 200, height: 200)
+                .frame(width: 150, height: 150)
             
             ProgressView()
                 .offset(y: 130)
